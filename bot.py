@@ -67,7 +67,7 @@ class RouletteBot:
         kb.add(InlineKeyboardButton("بدء روليت 🎲", callback_data="start_roulette_select_channel_prompt"))
         kb.add(InlineKeyboardButton("قنواتي ➕", callback_data="my_channels_menu"),
                InlineKeyboardButton("ذكرني إذا فزت 🔔", callback_data="remind_me_global_info"))
-        kb.add(InlineKeyboardButton("مطور البوت", url="https://t.me/Jiii_9"), InlineKeyboardButton("قنا البوت", url="https://t.me/Abu_Jurf"))
+        kb.add(InlineKeyboardButton("مطور البوت", url="https://t.me/F6EER"), InlineKeyboardButton("قنا البوت", url="https://t.me/uuuuuu5r"))
         kb.add(InlineKeyboardButton("المساعدة", callback_data="show_help_info"))
         if user_id == self.ADMIN_ID:
             kb.add(InlineKeyboardButton("لوحة الأدمن ⚙️", callback_data="admin_panel"))
@@ -557,7 +557,7 @@ class RouletteBot:
         user_username = call.from_user.username
 
         welcome_message_parts = []
-        welcome_message_parts.append("اهلا بكم في روليت الجرف 👋\n\n")
+        welcome_message_parts.append("اهلا بكم في روليت القمة 👋\n\n")
         welcome_part = f"أهلاً بك <a href='tg://user?id={user_id}'>{user_full_name_fallback}</a>"
         if user_username:
             welcome_part += f" (@{user_username})"
